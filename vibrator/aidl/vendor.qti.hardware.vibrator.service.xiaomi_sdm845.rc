@@ -1,0 +1,4 @@
+service vendor.qti.vibrator /vendor/bin/hw/vendor.qti.hardware.vibrator.service.realme_sm7125
+    class hal
+    user system
+    group system input
