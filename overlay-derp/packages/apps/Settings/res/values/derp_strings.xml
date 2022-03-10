@@ -14,5 +14,6 @@
 
     <string name="maintainer">Maintainer</string>
     <string name="maintainer_name">Mayur Varde</string>
-
+    <string name="maintainer_telegram" translatable="false">https://t.me/marshmello_61</string>
+    <string name="volume_panel_is_on_left" translatable="false">true</string>
 </resources>
