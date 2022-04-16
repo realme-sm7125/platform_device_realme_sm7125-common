@@ -570,12 +570,6 @@
         <!-- B y-intercept --> <item>-0.349361641294833436</item>
     </string-array>
 
-    <!-- Night Light FOD -->
-    <bool name="disable_fod_night_light">true</bool>
-
-    <!-- Whether to disable Night Light on Udfps keyguard -->
-    <bool name="config_udfpsDisableNightLight">true</bool>
-
     <!-- Path to fast charging status file to detect whether an oem fast charger is active -->
     <string name="config_oemFastChargerStatusPath" translatable="false">/sys/class/power_supply/battery/voocchg_ing</string>
 </resources>
