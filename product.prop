@@ -30,3 +30,7 @@ ro.incremental.enable=1
 ro.iorapd.enable=true
 iorapd.perfetto.enable=true
 iorapd.readahead.enable=true
+
+# ProjectElixir
+ro.elixir.maintainer=Mayur Varde
+org.elixir.device=Realme 7 Pro
