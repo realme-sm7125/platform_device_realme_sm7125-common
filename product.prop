@@ -24,6 +24,10 @@ vendor.display.disable_rotator_downscale=1
 # LMKD
 ro.config.low_ram=false
 
+# LMK tuning
+ro.lmk.filecache_min_kb=153600
+ro.lmk.stall_limit_critical=40
+
 # Incremental FS
 ro.incremental.enable=1
 
