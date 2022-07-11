@@ -31,6 +31,7 @@ ro.iorapd.enable=true
 iorapd.perfetto.enable=true
 iorapd.readahead.enable=true
 
-# ProjectElixir
-ro.elixir.maintainer=Mayur Varde
-org.elixir.device=Realme 7 Pro
+# RIL
+persist.vendor.qti.telephony.vt_cam_interface=2
+persist.vendor.radio.report_codec=1
+persist.vendor.radio.vdp_on_ims_cap=1
