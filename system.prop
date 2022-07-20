@@ -39,6 +39,9 @@ vendor.camera.aux.packageblacklist=org.telegram.plus,com.revolut.revolut,org.tel
 # CNE
 persist.vendor.cne.feature=1
 
+# CPU
+ro.cpu.derp=SD720G
+
 # Dalvik
 dalvik.vm.dexopt.secondary=true
 
