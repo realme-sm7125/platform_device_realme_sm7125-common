@@ -316,7 +316,7 @@ PRODUCT_PACKAGES += \
 
 # Sensors
 PRODUCT_PACKAGES += \
-    android.hardware.sensors@2.0-service.multihal_realme_sm7125 \
+    android.hardware.sensors@2.1-service.multihal_realme_sm7125 \
     vendor.qti.hardware.display.mapper@1.1.vendor
 
 PRODUCT_COPY_FILES += \
