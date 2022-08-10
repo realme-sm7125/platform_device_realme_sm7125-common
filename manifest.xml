@@ -681,9 +681,4 @@
             <instance>default</instance>
         </interface>
     </hal>
-    <hal format="hidl">
-        <name>vendor.google.google_battery</name>
-        <transport>hwbinder</transport>
-        <fqname>@1.1::IGoogleBattery/default</fqname>
-    </hal>
 </manifest>
