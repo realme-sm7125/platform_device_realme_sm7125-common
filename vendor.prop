@@ -118,6 +118,7 @@ persist.dirac.acs.controller=qem
 persist.dirac.acs.ignore_error=1
 persist.dirac.acs.storeSettings=1
 ro.audio.soundfx.dirac=true
+ro.vendor.audio.soundfx.type=mi
 
 # Display
 ro.hardware.egl=adreno
@@ -141,6 +142,11 @@ vendor.hw.fm.init=0
 
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
+
+# harmankardon Audio
+ro.vendor.audio.sfx.earadj=true
+ro.vendor.audio.sfx.harmankardon=true
+ro.vendor.audio.sfx.scenario=true
 
 # JNI
 ro.kernel.android.checkjni=0
