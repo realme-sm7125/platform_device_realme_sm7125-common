@@ -118,6 +118,7 @@ persist.dirac.acs.controller=qem
 persist.dirac.acs.ignore_error=1
 persist.dirac.acs.storeSettings=1
 ro.audio.soundfx.dirac=true
+ro.vendor.audio.soundfx.dirac=true
 ro.vendor.audio.soundfx.type=mi
 
 # Display
