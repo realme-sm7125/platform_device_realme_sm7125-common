@@ -21,10 +21,6 @@ include $(CLEAR_VARS)
 LOCAL_MODULE_TAGS := optional
 
 LOCAL_STATIC_ANDROID_LIBRARIES := \
-    androidx.appcompat_appcompat \
-    androidx.legacy_legacy-support-v13 \
-    androidx.palette_palette \
-    androidx.recyclerview_recyclerview \
     SettingsLib
 
 LOCAL_SRC_FILES := $(call all-java-files-under, src)
