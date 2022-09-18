@@ -1,0 +1,7 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mellolab.pixellauncher.overlay">
+
+    <application android:hasCode="false" />
+
+    <overlay android:targetPackage="com.google.android.apps.nexuslauncher" />
+</manifest>
