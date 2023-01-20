@@ -43,6 +43,12 @@
 # MMC 
 /sys/devices/virtual/bdi/[0-999]+:[0-999]+/read_ahead_kb               u:object_r:vendor_sysfs_mmc_host:s0
 
+# realmeLab
+# Antiflicker
+/sys/kernel/oppo_display/dimlayer_bl_en                      u:object_r:sysfs_oppo_display:s0
+# HBM
+/sys/kernel/oppo_display/hbm                               u:object_r:sysfs_oppo_display:s0
+
 # SSR
 /sys/devices/platform/soc/9800000.qcom,npu/subsys[0-9]/name          u:object_r:vendor_sysfs_ssr:s0
 /sys/devices/platform/soc/62400000.qcom,lpass/subsys[0-9]/restart_level         u:object_r:vendor_sysfs_ssr_toggle:s0
