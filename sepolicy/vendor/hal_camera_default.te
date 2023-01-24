@@ -3,6 +3,11 @@ allow hal_camera_default vendor_persist_camera_file:file rw_file_perms;
 allow hal_camera_default vendor_persist_camera_file:file create_file_perms;
 allow hal_camera_default vendor_persist_camera_file:dir rw_dir_perms;
 allow hal_camera_default proc_flash:file rw_file_perms;
+allow hal_camera_default default_prop:file { map getattr open read };
+allow hal_camera_default system_prop:file { map getattr open read };
+allow hal_camera_default radio_prop:file { map getattr open read };
+allow hal_camera_default proc_meminfo:file { map getattr open read };
+allow hal_camera_default hal_oppo_hwservice:hwservice_manager find;
 
 get_prop(hal_camera_default, vendor_camera_prop)
 get_prop(hal_camera_default, oppo_debug_prop)
