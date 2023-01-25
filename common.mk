@@ -109,10 +109,14 @@ PRODUCT_PACKAGES += \
     gralloc.atoll \
     hwcomposer.atoll \
     libdisplayconfig.qti \
+    libdisplayconfig.qti.vendor \
     libqdMetaData \
     libtinyxml \
     libgui_vendor \
-    memtrack.atoll
+    memtrack.atoll \
+    libsdmcore \
+    libsdmutils \
+    libvulkan
 
 PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.4-impl \
@@ -122,8 +126,14 @@ PRODUCT_PACKAGES += \
     android.hardware.memtrack@1.0-impl \
     android.hardware.memtrack@1.0-service \
     vendor.qti.hardware.display.allocator-service \
+    vendor.qti.hardware.display.mapper@1.1.vendor \
     vendor.qti.hardware.display.mapper@2.0.vendor \
-    vendor.qti.hardware.display.mapper@3.0.vendor
+    vendor.qti.hardware.display.mapper@3.0.vendor \
+    vendor.qti.hardware.display.mapper@4.0.vendor \
+    vendor.display.config@1.5 \
+    vendor.display.config@1.11.vendor \
+    vendor.display.config@2.0 \
+    vendor.display.config@2.0.vendor
 
 # DRM
 PRODUCT_PACKAGES += \
@@ -318,8 +328,7 @@ PRODUCT_PACKAGES += \
 
 # Sensors
 PRODUCT_PACKAGES += \
-    android.hardware.sensors@2.1-service.multihal_realme_sm7125 \
-    vendor.qti.hardware.display.mapper@1.1.vendor
+    android.hardware.sensors@2.1-service.multihal_realme_sm7125
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.sensor.accelerometer.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.accelerometer.xml \
