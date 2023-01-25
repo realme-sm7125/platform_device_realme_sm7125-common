@@ -19,3 +19,6 @@ allow system_app vendor_sysfs_graphics:file { getattr open read };
 r_dir_file(system_app, vendor_sysfs_graphics)
 
 allow system_app proc_pagetypeinfo:file { getattr open read };
+
+# Launcher3
+allow system_app sysfs_zram:dir search;

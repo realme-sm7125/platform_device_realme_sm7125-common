@@ -4,3 +4,6 @@ allow platform_app vendor_sysfs_kgsl:lnk_file read;
 
 r_dir_file(platform_app, proc_decimal)
 get_prop(platform_app, vendor_display_prop)
+
+# Launcher3
+allow platform_app sysfs_zram:dir search;
