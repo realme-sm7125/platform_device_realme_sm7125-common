@@ -34,6 +34,7 @@
         <item>com.android.camera</item>
         <item>org.codeaurora.snapcam</item>
         <item>com.google.camera</item>
+        <item>com.google.android.apps.cameralite</item>
         <item>com.shamim.cam</item>
         <item>app.grapheneos.camera</item>
         <item>org.lineageos.aperture</item>
