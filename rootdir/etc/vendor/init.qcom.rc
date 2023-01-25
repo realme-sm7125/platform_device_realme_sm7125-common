@@ -136,6 +136,7 @@ on early-boot
     chmod 0775 /mnt/vendor/persist/data/pfm/licenses
 
     # Wipe resource cache
+    rm /data/resource-cache
     rm /data/system/package_cache
 
 on boot
