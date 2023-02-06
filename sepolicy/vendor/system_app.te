@@ -22,3 +22,4 @@ allow system_app proc_pagetypeinfo:file { getattr open read };
 
 # Launcher3
 allow system_app sysfs_zram:dir search;
+allow system_app sysfs_zram:file { map getattr open read };
