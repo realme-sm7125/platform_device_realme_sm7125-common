@@ -110,6 +110,7 @@ ro.crypto.volume.filenames_mode=aes-256-cts
 
 # Dalvik
 dalvik.vm.dex2oat64.enabled=true
+dalvik.vm.systemuicompilerfilter=speed
 
 # Dirac
 persist.audio.dirac.speaker=true
