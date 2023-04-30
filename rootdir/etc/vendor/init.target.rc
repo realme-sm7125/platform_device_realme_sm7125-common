@@ -110,19 +110,16 @@ on boot
 #endif
     start vendor.rmt_storage
     start rfs_access
-    write /dev/cpuset/top-app/cpus 0-3
-    write /dev/cpuset/foreground/cpus 0-3
-    write /dev/cpuset/foreground/boost/cpus 0-3
-    write /dev/cpuset/background/cpus 0-3
+    write /dev/cpuset/foreground/cpus 0-6
+    write /dev/cpuset/foreground/boost/cpus 0-6
+    write /dev/cpuset/background/cpus 0-1
     write /dev/cpuset/system-background/cpus 0-3
     write /dev/cpuset/top-app/cpus 0-7
-    write /dev/cpuset/foreground/cpus 0-7
-    write /dev/cpuset/foreground/boost/cpus 0-7
 #ifdef VENDOR_EDIT
 #Kai.Du@RM.AD.Performance, 2020/11/2, Modify for boost boot time
-    write /dev/cpuset/background/cpus 0-5
+    write /dev/cpuset/background/cpus 0-1
 #endif
-    write /dev/cpuset/system-background/cpus 0-7
+    write /dev/cpuset/system-background/cpus 0-3
 
     chown system system /dev/cpuset/cgroup.procs
     chown system system /dev/cpuset/foreground/cgroup.procs
