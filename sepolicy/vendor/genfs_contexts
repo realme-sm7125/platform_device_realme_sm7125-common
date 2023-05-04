@@ -14,6 +14,9 @@ genfscon proc /fp_id                     u:object_r:proc_oppo_fp:s0
 # Power supply
 genfscon sysfs /devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-00/c440000.qcom,spmi:qcom,pm6150@0:qcom,qpnp-smb5/power_supply/ac u:object_r:vendor_sysfs_usb_supply:s0
 
+# ProcFS
+genfscon proc /sys/vm/dirty_writeback_centisecs                       u:object_r:proc_dirty:s0
+
 # Devinfo
 genfscon proc /devinfo        u:object_r:proc_devinfo:s0
 

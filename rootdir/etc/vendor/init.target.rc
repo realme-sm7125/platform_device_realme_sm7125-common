@@ -463,3 +463,16 @@ chown system system /sys/bus/platform/devices/soc:fpc1020/wakelock_enable
 on property:sys.boot_completed=1
    # Enable PowerHAL hint processing
    setprop vendor.powerhal.init 1
+
+   # write caching
+   # Tell the kernel to use up to 60% of the RAM as cache for writes
+   # and instruct kernel to use up to 30% of RAM before slowing down
+   # the process that's writing.
+   write /proc/sys/vm/dirty_ratio 60
+   write /proc/sys/vm/dirty_background_ratio 30
+
+   # Tell that 06 minutes write delay is ok to even start writing
+   # stuff on the disk (six minutes = 36000; ten minutes = 60000;
+   # one hour = 360000).
+   write /proc/sys/vm/dirty_expire_centisecs 36000
+   write /proc/sys/vm/dirty_writeback_centisecs 36000
