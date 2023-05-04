@@ -138,6 +138,14 @@ vendor.display.qdcm.mode_combine=1
 vendor.display.enable_default_color_mode=1
 vendor.gralloc.disable_ubwc=0
 
+# Fling
+ro.min.fling_velocity=160 
+ro.max.fling_velocity=20000 
+ro.vendor.qti.cgroup_follow.enable=true 
+persist.vendor.qti.inputopts.enable=true 
+persist.vendor.qti.inputopts.movetouchslop=0.6 
+ro.qcom.adreno.qgl.ShaderStorageImageExtendedFormats=0
+
 # FM
 vendor.hw.fm.init=0
 
