@@ -120,7 +120,7 @@ persist.dirac.acs.ignore_error=1
 persist.dirac.acs.storeSettings=1
 ro.audio.soundfx.dirac=true
 ro.vendor.audio.soundfx.dirac=true
-ro.vendor.audio.soundfx.type=mi
+ro.vendor.audio.soundfx.type=dirac
 
 # Display
 ro.hardware.egl=adreno
