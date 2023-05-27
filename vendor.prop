@@ -14,6 +14,7 @@ vendor.audio.offload.track.enable=true
 audio.deep_buffer.media=true
 vendor.audio.offload.multiaac.enable=true
 vendor.audio.dolby.ds2.enabled=true
+vendor.audio.dolby.ds2.hardbypass=false
 vendor.audio.offload.multiple.enabled=false
 vendor.audio.offload.passthrough=false
 ro.vendor.audio.sdk.ssr=false
