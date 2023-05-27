@@ -115,6 +115,7 @@ dalvik.vm.dex2oat64.enabled=true
 dalvik.vm.systemuicompilerfilter=speed
 
 # Dirac
+hpx_send_params=1
 persist.audio.dirac.speaker=true
 persist.dirac.acs.controller=qem
 persist.dirac.acs.ignore_error=1
