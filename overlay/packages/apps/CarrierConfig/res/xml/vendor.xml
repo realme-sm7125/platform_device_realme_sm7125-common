@@ -21,6 +21,7 @@
         <boolean name="show_cdma_choices_bool" value="true" />
         <boolean name="allow_video_call_in_low_battery" value="true" />
         <boolean name="config_enable_display_14digit_imei" value="false" />
+        <int name="lte_plus_threshold_bandwidth_khz_int" value="0" />
         <boolean name="video_call_use_ext" value="true" />
         <boolean name="use_custom_video_ui" value="false" />
         <boolean name="config_hide_preview_in_vt_confcall" value="false" />
