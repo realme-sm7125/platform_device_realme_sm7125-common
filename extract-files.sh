@@ -61,7 +61,10 @@ function blob_fixup() {
             sed -i 's/ro.boot.flash.locked/ro.boot.flash.fucked/g' "${2}"
             ;;
         vendor/lib64/hw/com.qti.chi.override.so)
-            sed -i "s/com.oem.autotest/\x00om.oem.autotest/" "${2}"
+            sed -i "s/com.oppo.camera/\x00om.oppo.camera/" "${2}"
+            ;;
+        vendor/lib64/hw/camera.qcom.so)
+            sed -i "s/com.oppo.camera/\x00om.oppo.camera/" "${2}"
             ;;
         system_ext/lib64/lib-imsvideocodec.so)
             "${PATCHELF}" --replace-needed libgui.so libxxx.so "${2}"
