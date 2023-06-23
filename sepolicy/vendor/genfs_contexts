@@ -69,7 +69,3 @@ genfscon proc /ui_soc_decimal              u:object_r:proc_decimal:s0
 
 # Kernelspace battrry saver
 genfscon sysfs /module/battery_saver/parameters/enabled                u:object_r:sysfs_battery_saver:s0
-
-# Battery health
-genfscon sysfs /sys/class/power_supply/battery/batt_cc      u:object_r:vendor_sysfs_battery_supply:s0
-genfscon sysfs /sys/class/power_supply/battery/batt_fcc      u:object_r:vendor_sysfs_battery_supply:s0
