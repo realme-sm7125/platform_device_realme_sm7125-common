@@ -138,6 +138,8 @@ PRODUCT_PACKAGES += \
     vendor.display.config@2.0 \
     vendor.display.config@2.0.vendor
 
+TARGET_GRALLOC_HANDLE_HAS_NO_RESERVED_SIZE := true
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.3-service.clearkey
