@@ -220,6 +220,9 @@ persist.vendor.sensors.enable.mag_filter=true
 persist.vendor.sensors.support_direct_channel=false
 persist.vendor.sensors.allow_non_default_discovery=true
 
+# SoC
+ro.soc.manufacturer=QTI
+
 # Usb
 persist.vendor.usb.config.extra=none
 
