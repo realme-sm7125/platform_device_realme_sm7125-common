@@ -429,14 +429,14 @@
             <devicePorts>
             <!-- A2DP Audio Ports -->
                 <devicePort tagName="BT A2DP Out" type="AUDIO_DEVICE_OUT_BLUETOOTH_A2DP" role="sink"
-                            encodedFormats="AUDIO_FORMAT_LHDC AUDIO_FORMAT_LHDC_LL">
+                            encodedFormats="AUDIO_FORMAT_SBC AUDIO_FORMAT_AAC AUDIO_FORMAT_APTX AUDIO_FORMAT_APTX_HD AUDIO_FORMAT_LDAC AUDIO_FORMAT_LHDC AUDIO_FORMAT_LHDC_LL">
                     <profile name="" format="AUDIO_FORMAT_PCM_16_BIT"
                              samplingRates="44100,48000,96000" channelMasks="AUDIO_CHANNEL_OUT_STEREO,AUDIO_CHANNEL_OUT_MONO"/>
                     <profile name="" format="AUDIO_FORMAT_PCM_24_BIT_PACKED"
                              samplingRates="44100,48000,96000" channelMasks="AUDIO_CHANNEL_OUT_STEREO,AUDIO_CHANNEL_OUT_MONO"/>
                </devicePort>
                 <devicePort tagName="BT A2DP Headphones" type="AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES" role="sink"
-                            encodedFormats="AUDIO_FORMAT_LHDC AUDIO_FORMAT_LHDC_LL">
+                            encodedFormats="AUDIO_FORMAT_SBC AUDIO_FORMAT_AAC AUDIO_FORMAT_APTX AUDIO_FORMAT_APTX_HD AUDIO_FORMAT_LDAC AUDIO_FORMAT_LHDC AUDIO_FORMAT_LHDC_LL">
                     <profile name="" format="AUDIO_FORMAT_PCM_16_BIT"
                              samplingRates="44100,48000,96000" channelMasks="AUDIO_CHANNEL_OUT_STEREO,AUDIO_CHANNEL_OUT_MONO"/>
                     <profile name="" format="AUDIO_FORMAT_PCM_24_BIT_PACKED"
@@ -444,7 +444,7 @@
 
                 </devicePort>
                 <devicePort tagName="BT A2DP Speaker" type="AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER" role="sink"
-                            encodedFormats="AUDIO_FORMAT_LHDC AUDIO_FORMAT_LHDC_LL">
+                            encodedFormats="AUDIO_FORMAT_SBC AUDIO_FORMAT_AAC AUDIO_FORMAT_APTX AUDIO_FORMAT_APTX_HD AUDIO_FORMAT_LDAC AUDIO_FORMAT_LHDC AUDIO_FORMAT_LHDC_LL">
                     <profile name="" format="AUDIO_FORMAT_PCM_16_BIT"
                              samplingRates="44100,48000,96000" channelMasks="AUDIO_CHANNEL_OUT_STEREO,AUDIO_CHANNEL_OUT_MONO"/>
                     <profile name="" format="AUDIO_FORMAT_PCM_24_BIT_PACKED"
@@ -453,11 +453,11 @@
             </devicePorts>
             <routes>
                  <route type="mix" sink="BT A2DP Out"
-                        sources="a2dp_lhdc output"/>
+                        sources="primary output,deep_buffer,compressed_offload,voip_rx,a2dp_lhdc output"/>
               <route type="mix" sink="BT A2DP Headphones"
-                     sources="a2dp_lhdc output"/>
+                     sources="primary output,deep_buffer,compressed_offload,voip_rx,a2dp_lhdc output"/>
               <route type="mix" sink="BT A2DP Speaker"
-                     sources="a2dp_lhdc output"/>
+                     sources="primary output,deep_buffer,compressed_offload,voip_rx,a2dp_lhdc output"/>
             </routes>
         </module>
 <!--endif OPLUS_FEATURE_BTAUDIO_LHDC-->
