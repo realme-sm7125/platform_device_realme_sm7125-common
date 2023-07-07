@@ -5,4 +5,5 @@ service vendor.fps_hal.realme_sm7125 /vendor/bin/hw/android.hardware.biometrics.
     class late_start
     user system
     group system input uhid
+    task_profiles ProcessCapacityHigh HighPerformance
     writepid /dev/cpuset/system-background/tasks
