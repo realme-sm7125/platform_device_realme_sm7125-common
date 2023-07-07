@@ -167,6 +167,9 @@ ro.frp.pst=/dev/block/bootdevice/by-name/frp
 # FS-verity
 ro.apk_verity.mode=2
 
+# Graphics
+debug.sf.predict_hwc_composition_strategy=0
+
 # harmankardon Audio
 ro.vendor.audio.sfx.earadj=true
 ro.vendor.audio.sfx.harmankardon=true
