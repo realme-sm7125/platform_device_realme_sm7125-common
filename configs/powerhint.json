@@ -119,6 +119,17 @@
       "ResetOnInit": true
     },
     {
+      "Name": "TAminclamp",
+      "Path": "/dev/cpuset/top-app/uclamp.min",
+      "Values": [
+        "50",
+        "10",
+        "0"
+      ],
+      "DefaultIndex": 1,
+      "ResetOnInit": true
+    },
+    {
       "Name": "CPUBWHystTriggerCount",
       "Path": "/sys/class/devfreq/soc:qcom,cpu-cpu-llcc-bw/bw_hwmon/hyst_trigger_count",
       "Values": [
@@ -191,6 +202,12 @@
         "N"
       ],
       "ResetOnInit": true
+    },
+    {
+      "PowerHint": "INTERACTION",
+      "Node": "TAminclamp",
+      "Duration": 0,
+      "Value": "50"
     },
     {
       "Name": "UfsClkGateEnable",
@@ -481,6 +498,12 @@
       "Node": "KernelBatterySaver",
       "Duration": 0,
       "Value": "Y"
+    },
+    {
+      "PowerHint": "DISPLAY_INACTIVE",
+      "Node": "TAminclamp",
+      "Duration": 0,
+      "Value": "0"
     }
   ]
 }
