@@ -5825,18 +5825,3 @@ setprop persist.vendor.mmi.misc_dev_path $real_path
 
 # Disable Gms Intent Operation Service
 pm disable com.google.android.gms/.chimera.GmsIntentOperationService
-
-# Disable HW overlays
-(while :
-do
-    sf=$(service list | grep -c "SurfaceFlinger")
-
-    if [ $sf -eq 1 ]
-    then
-        service call SurfaceFlinger 1008 i32 1
-        break
-    else
-        sleep 0.5
-    fi
-done
-) &
