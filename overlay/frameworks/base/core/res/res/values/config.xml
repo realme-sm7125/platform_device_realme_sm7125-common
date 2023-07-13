@@ -377,35 +377,48 @@
 
      <!-- Vibrator pattern for a very short but reliable vibration for soft keyboard tap -->
     <integer-array name="config_keyboardTapVibePattern">
-        <item>40</item>
+        <item>80</item>
     </integer-array>
 
     <!-- Vibrator pattern for feedback about a long screen/key press -->
     <integer-array name="config_longPressVibePattern">
-        <item>0</item>
-        <item>1</item>
-        <item>35</item>
-        <item>25</item>
+        <item>10</item>
+        <item>49</item>
+        <item>89</item>
+        <item>92</item>
     </integer-array>
 
     <!-- Vibrator pattern for feedback about touching a virtual key -->
     <integer-array name="config_virtualKeyVibePattern">
-        <item>0</item>
-        <item>20</item>
-        <item>35</item>
-        <item>30</item>
+        <item>10</item>
+        <item>65</item>
+        <item>85</item>
+        <item>95</item>
+    </integer-array>
+
+    <!-- Vibrator pattern for feedback that simulates a double click effect -->
+    <integer-array name="config_doubleClickVibePattern">
+        <item>10</item>
+        <item>25</item>
+        <item>60</item>
+        <item>90</item>
+        <item>120</item>
     </integer-array>
 
     <!-- Vibrator pattern for feedback when selecting an hour/minute tick of a Clock -->
     <integer-array name="config_clockTickVibePattern">
         <item>125</item>
-        <item>30</item>
+        <item>10</item>
+        <item>41</item>
+        <item>95</item>
     </integer-array>
 
     <!-- Vibrator pattern for feedback when selecting a day/month/year date of a Calendar -->
     <integer-array name="config_calendarDateVibePattern">
         <item>125</item>
-        <item>30</item>
+        <item>10</item>
+        <item>41</item>
+        <item>95</item>
     </integer-array>
 
     <!-- Vibrator pattern for feedback about booting with safe mode enabled -->
@@ -420,10 +433,9 @@
 
     <!-- Vibrator pattern for feedback about hitting a scroll barrier -->
     <integer-array name="config_scrollBarrierVibePattern">
-        <item>0</item>
-        <item>20</item>
-        <item>35</item>
-        <item>20</item>
+        <item>10</item>
+        <item>41</item>
+        <item>85</item>
     </integer-array>
 
     <!-- Vibrator pattern to be used as the default for notifications
