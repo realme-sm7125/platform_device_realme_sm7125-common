@@ -209,4 +209,9 @@
     <string name="gameswitch_enable_summary">Boosts touch sampling rate for smoother and better game play</string>
     <string name="gameswitch_enable_title">Gaming mode</string>
     <string name="gameswitch_enable_summary_not_supported">Gaming mode is not currently supported</string>
+
+    <!-- Fastcharge -->
+    <string name="fastcharge_summary">Force restricts fast charging to reduce the heat produced while charging and thus extending the lifespan of the battery\nTo force restrict fast charging enable this toggle, whereas to keep using fast charging keep this toggle disabled</string>
+    <string name="fastcharge_title">Restrict fast charging</string>
+    <string name="fastcharge_summary_not_supported">Restriction of fast charge is not currently supported</string>
 </resources>

@@ -35,6 +35,9 @@ public class MiscSettingsFragment extends PreferenceFragment implements
     private SwitchPreference mGameSwitchPreference;
     private static final String GAMESWITCH_ENABLE_KEY = "game_switch";
     private static final String GAMESWITCH_NODE = "/proc/touchpanel/game_switch_enable";
+    private SwitchPreference mFastChargePreference;
+    private static final String FASTCHARGE_ENABLE_KEY = "fast_charge";
+    private static final String FASTCHARGE_NODE = "/sys/class/qcom-battery/restrict_chg";
 
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
@@ -55,6 +58,14 @@ public class MiscSettingsFragment extends PreferenceFragment implements
             mGameSwitchPreference.setSummary(R.string.gameswitch_enable_summary_not_supported);
             mGameSwitchPreference.setEnabled(false);
         }
+        mFastChargePreference = (SwitchPreference) findPreference(FASTCHARGE_ENABLE_KEY);
+        if (FileUtils.fileExists(FASTCHARGE_NODE)) {
+            mFastChargePreference.setEnabled(true);
+            mFastChargePreference.setOnPreferenceChangeListener(this);
+        } else {
+            mFastChargePreference.setSummary(R.string.fastcharge_summary_not_supported);
+            mFastChargePreference.setEnabled(false);
+        }
     }
 
     @Override
@@ -64,6 +75,9 @@ public class MiscSettingsFragment extends PreferenceFragment implements
         }
         if (GAMESWITCH_ENABLE_KEY.equals(preference.getKey())) {
             FileUtils.writeLine(GAMESWITCH_NODE, (Boolean) newValue ? "1" : "0");
+        }
+        if (FASTCHARGE_ENABLE_KEY.equals(preference.getKey())) {
+            FileUtils.writeLine(FASTCHARGE_NODE, (Boolean) newValue ? "1" : "0");
         }
         return true;
     }
