@@ -29,11 +29,11 @@ LOCAL_SHARED_LIBRARIES := \
     libutils \
     vendor.lineage.fastcharge@1.0
 
-LOCAL_MODULE := vendor.lineage.fastcharge@1.0-service.xiaomi_sm8250
-LOCAL_INIT_RC := vendor.lineage.fastcharge@1.0-service.xiaomi_sm8250.rc
+LOCAL_MODULE := vendor.lineage.fastcharge@1.0-service.realme_sm7125
+LOCAL_INIT_RC := vendor.lineage.fastcharge@1.0-service.realme_sm7125.rc
 LOCAL_MODULE_RELATIVE_PATH := hw
 LOCAL_MODULE_TAGS := optional
-LOCAL_VINTF_FRAGMENTS := vendor.lineage.fastcharge@1.0-service.xiaomi_sm8250.xml
+LOCAL_VINTF_FRAGMENTS := vendor.lineage.fastcharge@1.0-service.realme_sm7125.xml
 LOCAL_VENDOR_MODULE := true
 
 include $(BUILD_EXECUTABLE)

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-#define LOG_TAG "fastcharge@1.0-service.xiaomi_sm8250"
+#define LOG_TAG "fastcharge@1.0-service.realme_sm7125"
 
 #include <android-base/logging.h>
 #include <hidl/HidlTransportSupport.h>
