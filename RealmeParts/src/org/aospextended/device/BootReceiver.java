@@ -46,6 +46,8 @@ public class BootReceiver extends BroadcastReceiver {
     private static final String OTG_PATH = "/sys/class/power_supply/usb/otg_switch";
     private static final String GAMESWITCH_ENABLE_KEY = "game_switch";
     private static final String GAMESWITCH_NODE = "/proc/touchpanel/game_switch_enable";
+    private static final String FASTCHARGE_ENABLE_KEY = "fast_charge";
+    private static final String FASTCHARGE_NODE = "/sys/class/qcom-battery/restrict_chg";
 
 
     @Override
@@ -80,6 +82,10 @@ public class BootReceiver extends BroadcastReceiver {
         boolean GameSwitchEnabled = sharedPrefs.getBoolean(GAMESWITCH_ENABLE_KEY, false);
         try {
             FileUtils.writeLine(GAMESWITCH_NODE, GameSwitchEnabled ? "1" : "0");
+        } catch(Exception e) {}
+        boolean FastChargeEnabled = sharedPrefs.getBoolean(FASTCHARGE_ENABLE_KEY, false);
+        try {
+            FileUtils.writeLine(FASTCHARGE_NODE, FastChargeEnabled ? "1" : "0");
         } catch(Exception e) {}
     }
 
