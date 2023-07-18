@@ -204,9 +204,17 @@
     <!-- Misc settings fragment -->
     <string name="misc_settings_title">Разное</string>
     <string name="misc_settings_summary">Индивидуальные настройки, не подпадающие под вышеуказанные категории</string>
+    <string name="misc_stable_title">стабильный</string>
+    <string name="misc_beta_title">бета</string>
+    <string name="misc_settings_warning_text">Функции, доступные в бета-версии, еще не полностью стабильны.  Использование бета-функций может иметь или не иметь каких-либо нежелательных эффектов на устройстве, поэтому используйте их на свой страх и риск\nЕсли бета-функции будут признаны достаточно стабильными, они могут быть добавлены в раздел Стабильные версии в будущем выпуске</string>
 
     <!-- Game switch -->
     <string name="gameswitch_enable_summary">Повышает частоту дискретизации касания для более плавного и качественного игрового процесса.</string>
     <string name="gameswitch_enable_title">Игровой режим</string>
     <string name="gameswitch_enable_summary_not_supported">Игровой режим в настоящее время не поддерживается</string>
+
+    <!-- Fastcharge -->
+    <string name="fastcharge_summary">Принудительно ограничивает быструю зарядку, чтобы уменьшить выделение тепла во время зарядки и, таким образом, продлить срок службы батареи.\nЧтобы принудительно ограничить быструю зарядку, включите этот переключатель, а чтобы продолжать использовать быструю зарядку, оставьте этот переключатель отключенным</string>
+    <string name="fastcharge_title">Ограничить быструю зарядку</string>
+    <string name="fastcharge_summary_not_supported">Ограничение быстрой зарядки в настоящее время не поддерживается</string>
 </resources>
