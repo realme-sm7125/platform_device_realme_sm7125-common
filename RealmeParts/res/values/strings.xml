@@ -204,6 +204,9 @@
     <!-- Misc settings fragment -->
     <string name="misc_settings_title">Miscelleneous</string>
     <string name="misc_settings_summary">Customizations that does not fall in above categories</string>
+    <string name="misc_stable_title">Stable</string>
+    <string name="misc_beta_title">Beta</string>
+    <string name="misc_settings_warning_text">The feature(s) available in Beta section is(are) not completely Stable yet. Using Beta feature(s) may or may not have any unwanted effect(s) to the device, so use at your own risk\nIf Beta feature(s) found Stable enough, they might get added into Stable section in future release</string>
 
     <!-- Game switch -->
     <string name="gameswitch_enable_summary">Boosts touch sampling rate for smoother and better game play</string>

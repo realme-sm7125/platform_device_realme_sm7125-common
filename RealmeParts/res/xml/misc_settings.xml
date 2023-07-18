@@ -16,20 +16,37 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/misc_settings_title">
 
-    <SwitchPreference
-        android:key="otg"
-        android:title="@string/otg_title"
-        android:summary="@string/otg_summary" />
+    <PreferenceCategory
+        android:key="misc_settings_stable_category"
+        android:title="@string/misc_stable_title">
 
-    <SwitchPreference
-        android:key="game_switch"
-        android:defaultValue="false"
-        android:title="@string/gameswitch_enable_title"
-        android:summary="@string/gameswitch_enable_summary" />
+        <SwitchPreference
+            android:key="otg"
+            android:title="@string/otg_title"
+            android:summary="@string/otg_summary" />
 
-    <SwitchPreference
-        android:key="fast_charge"
-        android:defaultValue="false"
-        android:title="@string/fastcharge_title"
-        android:summary="@string/fastcharge_summary" />
+        <SwitchPreference
+            android:key="game_switch"
+            android:defaultValue="false"
+            android:title="@string/gameswitch_enable_title"
+            android:summary="@string/gameswitch_enable_summary" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="misc_settings_beta_category"
+        android:title="@string/misc_beta_title">
+
+        <SwitchPreference
+            android:key="fast_charge"
+            android:defaultValue="false"
+            android:title="@string/fastcharge_title"
+            android:summary="@string/fastcharge_summary" />
+
+    </PreferenceCategory>
+
+    <com.android.settingslib.widget.FooterPreference
+        android:key="misc_settings_footer"
+        android:title="@string/misc_settings_warning_text"
+        android:selectable="false" />
 </PreferenceScreen>
