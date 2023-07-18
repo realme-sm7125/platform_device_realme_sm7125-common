@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2020 The AospExtended Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- General strings -->
+
+    <string name="dlg_ok">OK</string>
+    <string name="cancel">cancella</string>
+    <string name="reset">ripristina</string>
+    <string name="reset_message">Reimpostare tutte le voci sui valori predefiniti?</string>
+    <string name="group_applications">applicazioni</string>
+    <string name="select_custom_app_title">Seleziona l\'applicazione personalizzata</string>
+    <string name="gestures_dashboard_summary">semplici gesti del touchscreen sullo schermo bloccato</string>
+    <string name="enable_gestures_title">attiva Gesti </string>
+    <string name="enable_gestures_summary">Abilita i gesti di spegnimento dello schermo</string>
+    <string name="gestures_title">Gesti</string>
+    <string name="gesture_double_tap_title">Doppio tocco gestuale</string>
+    <string name="gesture_w_title">Gesto W</string>	
+    <string name="gesture_m_title">Gesto m</string>
+    <string name="gesture_s_title">Gesto s</string>
+    <string name="gesture_circle_title">Gesto Cerchio</string>
+    <string name="gesture_two_swipe_title">Gesto due dita</string>
+    <string name="gesture_up_arrow_title">Gesto Freccia su</string>
+    <string name="gesture_down_arrow_title">Gesto Freccia giù</string>
+    <string name="gesture_left_arrow_title">Gesto Freccia sinistra</string>
+    <string name="gesture_right_arrow_title">Gesto Freccia destra</string>
+    <string name="gesture_swipe_up_title">Gesto di scorrimento verso l\'alto</string>
+    <string name="gesture_swipe_down_title">Gesto di scorrimento verso il basso</string>
+    <string name="gesture_swipe_left_title">Gesto di scorrimento a sinistra</string>
+    <string name="gesture_swipe_right_title">Gesto di scorrimento a destra</string>
+    <string name="RealmeParts">Laboratorio realme</string>
+    <string name="RealmeParts_summary">Caratteristiche sperimentali, AOD e modifiche</string>
+    <string name="screen_off_gestures">Gesti di spegnimento dello schermo</string>
+    <string name="gestures">Gesti</string>
+    <string name="enable_dt2w_title">Abilita il doppio tocco</string>
+    <string name="enable_dt2w_summary">Abilita i gesti di doppio tocco</string>
+    <string name="dt2w_title">Doppio tocco</string>
+    <string name="haptic_feedback_title">Feedback aptico</string>
+
+    <!-- Shortcut actions -->
+    <string name="action_none">Nessuno</string>
+    <string name="action_app">App personalizzata</string>
+    <string name="action_home">Casa</string>
+    <string name="action_back">Indietro</string>
+    <string name="action_menu">Menu</string>
+    <string name="action_ime">Aprire il commutatore IME</string>
+    <string name="action_power_menu">Menu Alimentazione</string>
+    <string name="action_recent">Recenti</string>
+    <string name="action_power">Schermo spento</string>
+    <string name="action_search">Ricerca nell\'applicazione</string>
+    <string name="action_now_on_tap">Now on Tap</string>
+    <string name="action_ring_vib">suoneria/vibrazione</string>
+    <string name="action_ring_silent">suoneria/silezioso</string>
+    <string name="action_ring_vib_silent">suoneria/vibrazione/silenzioso</string>
+    <string name="action_camera">Fotocamera</string>
+    <string name="action_media_next">Musica - brano successivo</string>
+    <string name="action_media_play_pause">Musica - riproduzione/pausa</string>
+    <string name="action_media_previous">Musica - brano precedente</string>
+    <string name="action_wake_device">Risvegliare il dispositivo</string>
+    <string name="action_kill">Kill app</string>
+    <string name="action_screenshot">Screenshot</string>
+    <string name="action_lastapp">Ultima applicazione</string>
+    <string name="action_notifications">Notifiche</string>
+    <string name="action_qs">Pannello impostazioni rapide</string>
+    <string name="action_torch">Torcia</string>
+    <string name="action_longpress">Premere a lungo:</string>
+    <string name="action_select_action_longpress">Scegliere l\'azione di pressione prolungata:</string>
+    <string name="action_select_action">Scegliere l\'azione:</string>
+    <string name="action_select_action_newaction">Scegliere una nuova azione:</string>
+    <string name="action_reset">ripristina</string>
+    <string name="action_add">Aggiungi</string>
+    <string name="action_reset_message">Riportare tutte le voci ai valori predefiniti?</string>
+    <string name="action_max">La dimensione massima delle voci è stata raggiunta</string>
+    <string name="action_warning">Attenzione</string>
+    <string name="action_warning_message">Non è possibile cancellare l\'ultima voce</string>
+    <string name="action_required_warning_message">Non è possibile eliminare i pulsanti richiesti</string>
+    <string name="action_disable_message">Disabilitato Aggiungere una voce per abilitare questa funzione</string>
+    <string name="shortcut_image_not_valid">L\'applicazione scelta non ha restituito un\'icona valida o non supporta il ritaglio dell\'immagine. Utilizzare un\'altra applicazione.</string>
+    <string name="shortcut_duplicate_entry">L\'azione scelta non può essere aggiunta due volte</string>
+    <string name="action_help_shortcut">Scorciatoia</string>
+    <string name="action_help_button">Bottoni</string>
+    <string name="action_help_app">Applicazione</string>
+    <string name="action_help_icon">mentre selezionando l\'icona si accede alle opzioni di personalizzazione.</string>
+    <string name="action_help_main">To add a %1$s, select the Add icon. Once a %1$s is added, selecting the row will change the target%2$s\n\nTo remove a %1$s, swipe the row horizontally left or right. Re-order a %1$s in the list by vertically dragging the anchor on the left.\n\nTo clear or reset to defaults, select the reset option.</string>
+
+    <!-- Device specific settings -->
+    <string name="screen_off_gesture_settings_title">Gesti di spegnimento dello schermo</string>
+
+    <!-- Ambient Display -->
+    <string name="ambient_display_title">Schermo</string>
+    <string name="ambient_display_enable_title">Sempre Attivo</string>
+    <string name="ambient_display_enable_summary">Svegliare lo schermo quando si ricevono notifiche</string>
+    <string name="ambient_display_gestures_title">Gesti display sempre attivo</string>
+    <string name="ambient_display_gestures_summary">Gesti aggiuntivi per risvegliare lo schermo</string>
+    <string name="ambient_display_summary">Svegliare lo schermo quando si ricevono notifiche</string>
+    <string name="ambient_display_summary_on">Lo schermo si sveglia quando si ricevono notifiche</string>
+    <string name="ambient_display_summary_off">Lo schermo non si sveglia quando si ricevono notifiche</string>
+    <string name="ambient_display_always_on_title">Sempre acceso</string>
+    <string name="ambient_display_always_on_summary">Mostra ora, icone di notifica e altre informazioni.  Maggiore utilizzo della batteria</string>
+
+    <!-- Tilt sensor -->
+    <string name="tilt_sensor_title">Sensore di inclinazione</string>
+
+    <!-- Pickup sensor -->
+    <string name="pickup_sensor_title">Pickup sensor</string>
+
+    <!-- Proximity sensor -->
+    <string name="proximity_sensor_title">Sensore di prossimità</string>
+
+    <!-- Hand wave gesture -->
+    <string name="hand_wave_gesture_title">Passare la mano sul sensore</string>
+    <string name="hand_wave_gesture_summary">Visualizza notifiche al passaggio della mano sul sensore</string>
+    <string name="hand_wave_gesture_flat_title">Rilevare l\'orientamento</string>
+    <string name="hand_wave_gesture_flat_summary">Impulso solo se il telefono è appoggiato a faccia in su su una superficie piana</string>
+
+    <!-- Pick-up gesture -->
+    <string name="pick_up_gesture_title">Pick-up</string>
+    <string name="pick_up_gesture_summary">Pulse notifications on pick-up</string>
+
+    <!-- Pocket gesture -->
+    <string name="pocket_gesture_title">Tasca</string>
+    <string name="pocket_gesture_summary">Notifiche a impulsi sulla rimozione dalla tasca</string>
+
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Risveglia sensore di prossimità</string>
+    <string name="proximity_wake_enable_title">Proximity wake</string>
+    <string name="proximity_wake_enable_summary">attiva il telfono con il passaggio della mano dul senore prossimità</string>
+
+    <!-- Dialog texts -->
+    <string name="dialog_ok">OK</string>
+
+    <!-- Help texts -->
+    <string name="doze_settings_help_title">Aiuto</string>
+    <string name="doze_settings_help_text">Queste funzioni utilizzano gli eventi dei sensori per lanciare un impulso di notifica del doze. Il sensore scelto viene attivato solo quando il dispositivo riceve una notifica, il che contribuisce a ridurre il consumo della batteria. È inoltre possibile attivare il sensore prescelto non appena lo schermo si spegne, il che comporta un maggiore consumo della batteria.</string>
+
+
+    <!-- Label for feature switch  -->
+    <string name="switch_bar_on">Acceso</string>
+
+    <!-- Label for feature switch -->
+    <string name="switch_bar_off">Spento</string>
+
+    <!-- Device specific settings -->
+    <string name="device_settings_app_name">Impostazioni avanzate</string>
+
+    <!-- Device gestures panel -->
+    <string name="screen_gestures_panel_title">Gesti</string>
+
+    <!-- Ambient gesture haptic feedback -->
+    <string name="ambient_gesture_extras">Extra</string>
+    <string name="ambient_gesture_haptic_feedback">Feedback aptico</string>
+    <string name="ambient_gesture_haptic_feedback_summary">Vibra quando viene rilevato un gesto ambinetale</string>
+
+    <!-- Touchscreen gesture haptic feedback -->
+    <string name="touchscreen_gesture_haptic_feedback">Feedback aptico</string>
+    <string name="touchscreen_gesture_haptic_feedback_summary">Vibra quando viene rilevato un gesto del touchscreen</string>
+
+    <!-- Vibration Slider -->
+    <string name="vibrator_intensity_control">Controllo delle vibrazioni</string>
+
+    <!-- Raise to wake strings-->
+    <string name="raise_to_wake_gesture_title">Sollevare per svegliare lo schermo</string>
+    <string name="raise_to_wake_gesture_summary">Svegliare il dispositivo invece di far pulsare la notifica</string>
+
+    <!-- Misc -->
+    <string name="misc_title">Modifiche</string>
+  
+    <!-- OTG strings-->
+    <string name="otg_title">Abilita OTG</string>
+    <string name="otg_summary">Abilitazione del dispositivo USB on-the-go</string>
+    <string name="otg_enable_summary_not_supported">L\'OTG non è attualmente supportato</string>
+
+    <!-- Double Tap to check phone  strings-->
+    <string name="double_tap_gesture_title">Doppio tocco per controllare il telefono</string>
+    <string name="double_tap_gesture_summary">Doppio tocco per mostrare le notifiche</string>
+
+    <!-- DC dimming settings -->
+    <string name="dc_dimming_enable_title">Anti-sfarfallio</string>
+    <string name="dc_dimming_enable_summary">Riduce l\'affaticamento degli occhi in condizioni di scarsa illuminazione</string>
+    <string name="dc_dimming_enable_summary_not_supported">Il DC Dimming non è attualmente supportato dal kernel.</string>
+
+    <!--Display settings fragment -->
+    <string name="display_settings_title">Modifiche al display</string>
+    <string name="display_settings_summary">Modalità ad alta luminosità e anti-sfarfallio</string>
+
+    <!-- HBM settings -->
+    <string name="hbm_mode_title">Modalità alta luminosità</string>
+    <string name="hbm_mode_summary">La modalità Alta luminosità consente di aumentare la luminosità del pannello del display oltre il valore massimo di serie, migliorando la visibilità alla luce diretta del sole.</string>
+    <string name="hbm_enable_summary_not_supported">La HBM non è attualmente supportata dal kernel</string>
+
+    <!-- Misc settings fragment -->
+    <string name="misc_settings_title">Miscellanea</string>
+    <string name="misc_settings_summary">Personalizzazioni che non rientrano nelle categorie precedenti</string>
+    <string name="misc_stable_title">Stabile</string>
+    <string name="misc_beta_title">Beta</string>
+    <string name="misc_settings_warning_text">Le funzioni disponibili nella sezione Beta non sono ancora completamente stabili. L\'uso delle funzioni Beta può avere o meno effetti indesiderati sul dispositivo, quindi l\'uso è a proprio rischio e pericolo. Se le funzioni Beta si rivelano sufficientemente stabili, potrebbero essere aggiunte alla sezione Stabile nelle versioni future.</string>
+
+    <!-- Game switch -->
+    <string name="gameswitch_enable_summary">Aumenta la frequenza di campionamento del touch per un gioco più fluido e migliore</string>
+    <string name="gameswitch_enable_title">Modalità di gioco</string>
+    <string name="gameswitch_enable_summary_not_supported">La modalità di gioco non è attualmente supportata</string>
+
+    <!-- Fastcharge -->
+    <string name="fastcharge_summary">Limita forzatamente la ricarica rapida per ridurre il calore prodotto durante la ricarica e prolungare così la durata della batteria. Per limitare forzatamente la ricarica rapida, attivare questa levetta, mentre per continuare a utilizzare la ricarica rapida, mantenerla disattivata.</string>
+    <string name="fastcharge_title">Limitare la ricarica rapida</string>
+    <string name="fastcharge_summary_not_supported">La limitazione della carica rapida non è attualmente supportata</string>
+</resources>
