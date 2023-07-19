@@ -46,4 +46,7 @@
         <item>org.telegram.messenger</item>
         <item>com.shopee.ph</item>
     </string-array>
+
+    <!-- Pocket Lock -->
+    <bool name="config_pocketModeSupported">true</bool>
 </resources>
