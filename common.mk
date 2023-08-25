@@ -157,7 +157,7 @@ PRODUCT_PACKAGES += \
 
 # Fastcharge
 PRODUCT_PACKAGES += \
-    vendor.lineage.fastcharge@1.0-service.realm_sm7125
+    vendor.lineage.fastcharge@1.0-service.realme_sm7125
 
 # Fingerprint
 PRODUCT_PACKAGES += \
