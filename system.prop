@@ -24,7 +24,7 @@ persist.sys.brightness.low.gamma=true
 persist.vendor.cne.feature=1
 
 # CPU
-ro.cpu.derp=SD720G
+# ro.cpu.derp=SD720G
 
 # Dalvik
 dalvik.vm.dexopt.secondary=true
