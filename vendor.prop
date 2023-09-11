@@ -150,6 +150,10 @@ vendor.audio.dolby.ds2.enabled=true
 vendor.audio.dolby.ds2.hardbypass=true
 ro.vendor.audio.dolby.dax.support=true
 
+# Dolby Vision
+ro.vendor.audio.dolby.vision.support=true
+debug.config.media.video.dolby_vision_suports=true
+
 # Fling
 ro.min.fling_velocity=160 
 ro.max.fling_velocity=20000 
