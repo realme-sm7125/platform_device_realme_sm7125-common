@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:settings="http://schemas.android.com/apk/res-auto"
-    android:title="@string/RealmeParts">
-
-    <com.android.settingslib.widget.IllustrationPreference
-        android:key="realmelab_illustration"
-        settings:lottie_rawRes="@raw/realmelab" />
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
     <PreferenceCategory
         android:key="gestures_category"
