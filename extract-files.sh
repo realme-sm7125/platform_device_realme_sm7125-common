@@ -69,6 +69,15 @@ function blob_fixup() {
         system_ext/lib64/lib-imsvideocodec.so)
             "${PATCHELF}" --replace-needed libgui.so libxxx.so "${2}"
             ;;
+        odm/lib64/libwvhidl.so)
+            "${PATCHELF}" --replace-needed "libprotobuf-cpp-lite-3.9.1.so" "libprotobuf-cpp-full-3.9.1.so" "${2}"
+            ;;
+        odm/lib/mediadrm/libwvdrmengine.so)
+            "${PATCHELF}" --replace-needed "libprotobuf-cpp-lite-3.9.1.so" "libprotobuf-cpp-full-3.9.1.so" "${2}"
+            ;;
+        odm/lib64/mediadrm/libwvdrmengine.so)
+            "${PATCHELF}" --replace-needed "libprotobuf-cpp-lite-3.9.1.so" "libprotobuf-cpp-full-3.9.1.so" "${2}"
+            ;;
     esac
 }
 
