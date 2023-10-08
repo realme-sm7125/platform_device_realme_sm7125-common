@@ -156,8 +156,8 @@ PRODUCT_PACKAGES += \
     fastbootd
 
 # Fastcharge
-PRODUCT_PACKAGES += \
-    vendor.lineage.fastcharge@1.0-service.realme_sm7125
+# PRODUCT_PACKAGES += \
+#     vendor.lineage.fastcharge@1.0-service.realme_sm7125
 
 # Fingerprint
 PRODUCT_PACKAGES += \
@@ -233,8 +233,8 @@ PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.realme_sm7125
 
 # LiveDisplay
-PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.0-service-sdm
+# PRODUCT_PACKAGES += \
+#     vendor.lineage.livedisplay@2.0-service-sdm
 
 # Media
 PRODUCT_PACKAGES += \
