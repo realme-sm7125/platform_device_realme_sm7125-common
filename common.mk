@@ -473,6 +473,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOARD_PLATFORM := atoll
 PRODUCT_USES_QCOM_HARDWARE := true
 
+# Protobuf
+PRODUCT_PACKAGES += \
+    libprotobuf-cpp-full-3.9.1-vendorcompat
+
 # HAX
 PRODUCT_PACKAGES += \
     android.frameworks.automotive.display@1.0.vendor \
