@@ -1,9 +1,6 @@
 # Goodix Fingerprint device
 /dev/goodix_fp                                                                                           u:object_r:goodix_device:s0
 
-# Fastcharge HAL
-/(vendor|system/vendor)/bin/hw/vendor\.lineage\.fastcharge@[0-9]\.[0-9]-service\.realme_sm7125          u:object_r:hal_lineage_fastcharge_default_exec:s0
-
 # FPC Fingerprint
 /sys/bus/platform/devices/soc:fpc1020(/.*?)    u:object_r:vendor_sysfs_fps_attr:s0
 
