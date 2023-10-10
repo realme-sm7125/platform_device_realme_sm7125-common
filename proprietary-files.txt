@@ -1266,14 +1266,6 @@ vendor/lib64/libtime_genoff.so
 vendor/firmware/aw8697_haptic.bin
 vendor/firmware/aw8697_haptic_170.bin
 vendor/firmware/aw8697_haptic_235.bin
-vendor/bin/vib_cal
-vendor/firmware/0_click_P_RTP.bin
-vendor/firmware/1_doubelClick_P_RTP.bin
-vendor/firmware/2_tick_P_RTP.bin
-vendor/firmware/3_thud_P_RTP.bin
-vendor/firmware/4_pop_P_RTP.bin
-vendor/firmware/5_heavyClick_P_RTP.bin
-vendor/lib64/libaachaptics.so
 
 # WiFi
 vendor/bin/cnss-daemon
