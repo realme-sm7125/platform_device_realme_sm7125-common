@@ -24,6 +24,11 @@ $(call inherit-product-if-exists, packages/apps/RealmeDirac/dirac.mk)
 PRODUCT_PACKAGES += \
     fs_config_files
 
+# Apex libraries
+PRODUCT_COPY_FILES += \
+    prebuilts/runtime/mainline/i18n/sdk/android/arm/lib/libandroidicu.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libandroidicu.so \
+    prebuilts/runtime/mainline/i18n/sdk/android/arm64/lib/libandroidicu.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libandroidicu.so
+
 # API
 PRODUCT_SHIPPING_API_LEVEL := 29
 
