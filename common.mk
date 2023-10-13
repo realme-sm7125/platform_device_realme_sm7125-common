@@ -649,6 +649,6 @@ PRODUCT_PACKAGES += \
     android.system.net.netd@1.1.vendor \
     android.system.wifi.keystore@1.0.vendor \
     libadf.vendor \
-    libstdc++.vendor \
+    libstdc++_vendor \
     vendor.qti.hardware.camera.device@1.0.vendor \
     libtinyxml.vendor
