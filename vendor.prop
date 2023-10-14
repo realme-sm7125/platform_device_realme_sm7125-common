@@ -93,6 +93,7 @@ pm.sleep_mode=1
 power.saving.mode=1
 
 # Bluetooth
+bluetooth.hci.erroneous_data_reporting.enabled=false
 persist.bluetooth.a2dp_offload.cap=sbc-aac-aptx-aptxhd-ldac-lhdc
 persist.vendor.bt.aac_frm_ctl.enabled=true
 persist.vendor.bt.aac_vbr_frm_ctl.enabled=true
