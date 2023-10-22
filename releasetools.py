@@ -29,8 +29,12 @@ def AddImage(info, input_zip, basename, dest):
   common.ZipWriteStr(info.output_zip, basename, data)
   info.script.AppendExtra('package_extract_file("%s", "%s");' % (basename, dest))
 
+def FlashImage(info, basename, dest):
+  info.script.AppendExtra('package_extract_file("%s", "%s");' % (basename, dest))
+
 def OTA_InstallEnd(info, input_zip):
-  info.script.Print("Patching dtbo and vbmeta images...")
+  info.script.Print("Patching boot, dtbo and vbmeta images...")
+  FlashImage(info, "boot.img", "/dev/block/bootdevice/by-name/boot")
   AddImage(info, input_zip, "dtbo.img", "/dev/block/bootdevice/by-name/dtbo")
   AddImage(info, input_zip, "vbmeta.img", "/dev/block/bootdevice/by-name/vbmeta")
   AddImage(info, input_zip, "vbmeta_system.img", "/dev/block/bootdevice/by-name/vbmeta_system")
